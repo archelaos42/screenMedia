@@ -3,7 +3,7 @@
 
     <Teleport to="body">
         <div v-if="!open===false" class="modal">
-            <img class="max-h-96" v-bind:src="'/storage/images/' + open" alt="">
+            <img class="max-h-96" v-bind:src="'/ + open'" alt="">
             <p>Hello from the modal!</p>
             <button @click="open = false">Close</button>
         </div>
@@ -23,8 +23,8 @@
                     <h1 @click.self="open = false" class="font-bold font-ropa text-yellow-300 text-2xl mb-3">BILLBOARD</h1>
                     <h1 @click.self="open = false" class="font-bold font-ropa mb-4">BILLBOARD are all you need to drive your message home... Or to your business.</h1>
                     <div>
-                            <img @click="open = '11.jpg'" style="cursor: pointer" class="h-44 mr-4 float-left" src="storage/images/11.jpg" alt="">
-                            <img @click="open = '22.jpg'" style="cursor: pointer" class="h-44 ml-4 float-right" src="storage/images/22.jpg" alt="">
+                            <img @click="open = 'https://screenmedia.rs/images/vrste_media/1.jpg'" style="cursor: pointer" class="h-44 mr-4 float-left" src="https://screenmedia.rs/images/vrste_media/1.jpg" alt="">
+                            <img @click="open = 'https://screenmedia.rs/images/vrste_media/2.jpg'" style="cursor: pointer" class="h-44 ml-4 float-right" src="https://screenmedia.rs/images/vrste_media/2.jpg" alt="">
                             <p @click.self="open = false" class="text-sm">Kompanija screen media svojim klijentima omogucava oglasavanje na razlicitim vrstama media, a nas tim strucnjaka
                             ce Vam pomoci da odaberete oglasni prostor na lokacijama koje ce najbolje predstaviti Vas I Vas proizvod. Billboard
                             je medij koji  moze da zadovolji  najveci deo potreba  za outdoor oglasavanjem.  Oglasavanje na  billboard  mediima
@@ -44,7 +44,7 @@
                     <h1 @click.self="open = false" class="font-bold font-ropa text-yellow-300 text-2xl mb-3">MEGABOARD</h1>
                     <h1 @click.self="open = false" class="font-bold font-ropa mb-4">OOH BIGBOARDS is a great LARGE FORMAT MEDIUM that can visually express what you have to say in an instant.</h1>
                     <div  class="text-sm">
-                        <img @click="open = '33.jpg'" style="cursor: pointer" class="h-44 mr-4 float-left" src="storage/images/33.jpg" alt="">
+                        <img @click="open = 'https://screenmedia.rs/images/vrste_media/3.jpg'" style="cursor: pointer" class="h-44 mr-4 float-left" src="https://screenmedia.rs/images/vrste_media/3.jpg" alt="">
                         <p @click.self="open = false">Mega board je billboard velikih dimenzija i kao takav predstavlja  uglavnom usamljeni svetionik pored puta koji šalje jasnu i upečatljivu poruku.
                             Zbog svojih ogromnih dimenzija, visine je preko 15 m, povrsine preko 50m2,  Mega board se postavlja uglavnom pored frekventnih saobraćajnica, van
                             urbanih zona, najpre pored auto puta gde je linija preglednosti velika. Pošto dominira prostorom i svojom veličinom, Mega board je pogodan za

@@ -25,7 +25,7 @@
                 <div class="font-semibold animate-bounce text-3xl label">A BILLBOARD CANNOT BE TURNED OFF!</div>
             </div>
             <button @click="animation = true" class="button text-red-600">
-                <img class="h-6 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/58402.jpg" alt="">
+                <img class="h-6 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/58402.png" alt="">
             </button>
 
         </div>

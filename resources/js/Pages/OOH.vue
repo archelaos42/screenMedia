@@ -8,7 +8,7 @@
         <div class="bg-yellow-300 w-1/2 my-6">
         </div>
     </div>
-    <img src="/storage/images/pic1.jpg" alt="">
+    <img src="https://screenmedia.rs/images/ooh/pic1.jpg" alt="">
 
     <div class="w-7/12 border-b-2 border-black border-dashed mx-96 pb-16">
         <h1 class="font-bold font-ropa py-10 text-yellow-600 text-3xl">ZASTO OUTDOOR OGLASAVANJE</h1>
