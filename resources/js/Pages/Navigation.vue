@@ -14,13 +14,13 @@
                 <li class="ml-auto mr-3"><NavLink href="/" class="hover:underline" :class="{'font-bold underline': $page.component === 'Home'}"><span class="font-bold text-lg text-black">HOME</span></NavLink></li>
                 <li class="mr-3"><NavLink href="/mediatypes" class="hover:underline" :class="{'font-bold underline': $page.component === 'MediaTypes'}"><span class="font-bold text-lg text-black">VRSTE MEDIA</span></NavLink></li>
                 <li
-                    @mouseover="hover=true" @mouseleave="hover = false"
+                    @mouseover="hover = true" @mouseleave="hover = false"
                     class="mr-3 flex">
                     <div class="inline-grid">
                         <NavLink href="#" class=" hover:underline"><span class="font-bold text-lg text-black">OPSTI USLOVI POSLOVANJA</span></NavLink>
-                        <div @click="download" v-if="!hover===false" class=" hover:underline z-50"><div style="cursor: pointer" class="bg-white pl-2 py-3 mt-3.5 h-12 font-bold text-md border-2 text-black">OPSTI USLOVI OGLASAVANJA</div></div>
-                        <div @click="download" v-if="!hover===false" class=" hover:underline z-50"><div style="cursor: pointer" class="bg-white pl-2 py-3 h-12 font-bold text-md text-black border-l-2 border-r-2">CENOVNIK OGLASAVANJA</div></div>
-                        <div @click="download" v-if="!hover===false" class=" hover:underline z-50"><div style="cursor: pointer" class="bg-white pl-2 py-3 h-12 font-bold text-md text-black border-2">OPSTI USLOVI POSLOVANJA</div></div>
+                        <div @click="download" v-if="!hover===false" class=" hover:underline z-50"><div style="cursor: pointer" class="bg-white h-12 font-bold text-md border-2 flex justify-center items-center text-black">OPSTI USLOVI OGLASAVANJA</div></div>
+                        <div @click="download" v-if="!hover===false" class=" hover:underline z-50"><div style="cursor: pointer" class="bg-white h-12 font-bold text-md flex justify-center items-center text-black border-l-2 border-r-2">CENOVNIK OGLASAVANJA</div></div>
+                        <div @click="download" v-if="!hover===false" class=" hover:underline z-50"><div style="cursor: pointer" class="bg-white h-12 font-bold text-md flex justify-center items-center text-black border-2">OPSTI USLOVI POSLOVANJA</div></div>
 <!--                        <NavLink @click="download" v-if="!hover===false" href="download" class=" hover:underline z-50" :class="{'font-bold underline': $page.component === 'Products'}"><div class="bg-white my-0 mx-0 font-bold text-lg text-black">OPSTI USLOVI POSLOVANJA</div></NavLink>-->
 <!--                        <NavLink @click="download" v-if="!hover===false" href="download" class=" hover:underline z-50" :class="{'font-bold underline': $page.component === 'Products'}"><div class="bg-white my-0 mx-0 font-bold text-lg text-black">OPSTI USLOVI POSLOVANJA</div></NavLink>-->
 <!--                        <NavLink @click="download" v-if="!hover===false" href="download" class=" hover:underline z-50" :class="{'font-bold underline': $page.component === 'Products'}"><div class="bg-white my-0 mx-0 font-bold text-lg text-black">OPSTI USLOVI POSLOVANJA</div></NavLink>-->
