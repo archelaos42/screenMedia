@@ -2,10 +2,14 @@
     <div class="wrapper">
         <Navigation />
         <div class="relative">
-            <img src="/storage/images/s.jpg" alt="">
-            <img v-if="slide === 1" class="board" src="/storage/images/1.jpg" alt="">
-            <img v-if="slide === 2" class="board" src="/storage/images/2.jpg" alt="">
-            <img v-if="slide === 3" class="board" src="/storage/images/3.jpg" alt="">
+<!--            <img src="/storage/images/s.jpg" alt="">-->
+<!--            <img v-if="slide === 1" class="board" src="/storage/images/1.jpg" alt="">-->
+<!--            <img v-if="slide === 2" class="board" src="/storage/images/2.jpg" alt="">-->
+<!--            <img v-if="slide === 3" class="board" src="/storage/images/3.jpg" alt="">-->
+            <img src="/storage/images/56034.jpg" alt="">
+            <img v-if="slide === 1" class="board" src="https://screenmedia.rs/images/slider/bb/1.jpg" alt="">
+            <img v-if="slide === 2" class="board" src="https://screenmedia.rs/images/slider/bb/2.jpg" alt="">
+            <img v-if="slide === 3" class="board" src="https://screenmedia.rs/images/slider/bb/3.jpg" alt="">
 <!--            <img v-if="slide === 1" class="absolute w-2/6 left-14 h-2/6 top-16 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/1.jpg" alt="">-->
 <!--            <img v-if="slide === 2" class="absolute w-2/6 left-14 h-2/6 top-16 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/2.jpg" alt="">-->
 <!--            <img v-if="slide === 3" class="absolute w-2/6 left-14 h-2/6 top-16 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/3.jpg" alt="">-->
@@ -21,7 +25,7 @@
                 <div class="font-semibold animate-bounce text-3xl label">A BILLBOARD CANNOT BE TURNED OFF!</div>
             </div>
             <button @click="animation = true" class="button text-red-600">
-                <img class="h-6 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/pop_close.png" alt="">
+                <img class="h-6 -rotate-6 -skew-x-6 skew-y-12" src="/storage/images/18645.jpg" alt="">
             </button>
 
         </div>
