@@ -3,7 +3,7 @@
 
     <Teleport to="body">
         <div v-if="!open===false" class="modal">
-            <img class="max-h-96" v-bind:src="'/ + open'" alt="">
+            <img class="max-h-96" v-bind:src='open' alt="">
             <p>Hello from the modal!</p>
             <button @click="open = false">Close</button>
         </div>
